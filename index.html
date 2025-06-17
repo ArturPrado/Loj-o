@@ -3,41 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lojão</title>
+    <title>login do Lojão</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Bem-vindo ao Lojão</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#home">Início</a></li>
-            <li><a href="#produtos">Produtos</a></li>
-            <li><a href="#sobre">Sobre Nós</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    <main>
-        <section>
-            <h2>Produtos em Destaque</h2>
-            <ul>
-                <li>Produto 1</li>
-                <li>Produto 2</li>
-                <li>Produto 3</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Promoções</h2>
-            <p>Aproveite nossas ofertas especiais!</p>
-        </section>
-    </main>
-    <aside>
-        <h2>Contato</h2>
-        <p>Email: contato@lojão.com</p>
-        <p>Telefone: (11) 1234-5678</p>
-    <footer>
-        <p>&copy; 2025 Lojão. Todos os direitos reservados.</p>
-    </footer>
-    
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="/login" method="POST">
+            <label for="username">nome de usuário:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">senha:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+        <p>Não tem uma conta? <a href="/register">Register here</a></p>
+    </div>
 </body>
 </html>
