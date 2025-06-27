@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Capas protetoras de silicone",
+    "category": "Acessórios para Smartphones",
+    "price": 39.90,
+    "image": "images/capas-silicone.jpg",
+    "description": "Capas protetoras de silicone para smartphones."
+  },
+  {
+    "id": 2,
+    "name": "Películas de proteção de tela vidro temperado",
+    "category": "Acessórios para Smartphones",
+    "price": 29.90,
+    "image": "images/pelicula-vidro-temperado.jpg",
+    "description": "Películas de proteção de tela vidro temperado."
+  },
+  {
+    "id": 3,
+    "name": "Suportes para carros magnéticos",
+    "category": "Acessórios para Smartphones",
+    "price": 49.90,
+    "image": "images/suporte-carro-magnetico.jpg",
+    "description": "Suportes para carros com conectividade magnética."
+  },
+  {
+    "id": 4,
+    "name": "Carregadores wireless certificados Qi",
+    "category": "Acessórios para Smartphones",
+    "price": 79.90,
+    "image": "images/carregador-wireless.jpg",
+    "description": "Carregadores wireless certificados Qi."
+  },
+  {
+    "id": 5,
+    "name": "Fones de ouvido Bluetooth com cancelamento de ruído",
+    "category": "Acessórios para Smartphones",
+    "price": 199.90,
+    "image": "images/fone-bluetooth-cancelamento.jpg",
+    "description": "Fones de ouvido Bluetooth com cancelamento de ruído."
+  },
+  {
+    "id": 6,
+    "name": "Baterias externas (power banks) com múltiplas portas USB",
+    "category": "Acessórios para Smartphones",
+    "price": 89.90,
+    "image": "images/power-bank.jpg",
+    "description": "Baterias externas com alta capacidade e múltiplas portas USB."
+  },
+  {
+    "id": 7,
+    "name": "Adaptadores e cabos USB-C, Lightning, Micro-USB e HDMI",
+    "category": "Acessórios para Smartphones",
+    "price": 39.90,
+    "image": "images/adaptadores-cabos.jpg",
+    "description": "Adaptadores e cabos USB-C, Lightning, Micro-USB e HDMI."
+  },
+  {
+    "id": 8,
+    "name": "Lentes de câmera adicionais (wide, fisheye, macro)",
+    "category": "Acessórios para Smartphones",
+    "price": 59.90,
+    "image": "images/lentes-camera.jpg",
+    "description": "Lentes de câmera adicionais para smartphones."
+  },
+  {
+    "id": 9,
+    "name": "Tripés e suportes para selfies e vídeos",
+    "category": "Acessórios para Smartphones",
+    "price": 49.90,
+    "image": "images/tripe-suporte.jpg",
+    "description": "Tripés e suportes para selfies e vídeos."
+  },
+  {
+    "id": 10,
+    "name": "Protetores de privacidade para câmera e microfone",
+    "category": "Acessórios para Smartphones",
+    "price": 19.90,
+    "image": "images/protetor-privacidade.jpg",
+    "description": "Protetores de privacidade para câmera e microfone."
+  },
+  {
+    "id": 11,
+    "name": "Memórias RAM DDR4 e DDR5 de alta velocidade",
+    "category": "Componentes de Computador",
+    "price": 299.90,
+    "image": "images/memoria-ram.jpg",
+    "description": "Memórias RAM DDR4 e DDR5 de alta velocidade."
+  },
+  {
+    "id": 12,
+    "name": "SSDs NVMe PCIe e SATA com capacidades variadas",
+    "category": "Componentes de Computador",
+    "price": 499.90,
+    "image": "images/ssd-nvme.jpg",
+    "description": "SSDs NVMe PCIe e SATA com capacidades variadas."
+  },
+  {
+    "id": 13,
+    "name": "Processadores (CPUs) de última geração para desktops",
+    "category": "Componentes de Computador",
+    "price": 899.90,
+    "image": "images/processador.jpg",
+    "description": "Processadores de última geração para desktops."
+  },
+  {
+    "id": 14,
+    "name": "Placas de vídeo (GPUs) com suporte a Ray Tracing",
+    "category": "Componentes de Computador",
+    "price": 1499.90,
+    "image": "images/placa-video.jpg",
+    "description": "Placas de vídeo com suporte a Ray Tracing."
+  },
+  {
+    "id": 15,
+    "name": "Teclados mecânicos com switches variados e RGB",
+    "category": "Componentes de Computador",
+    "price": 399.90,
+    "image": "images/teclado-mecanico.jpg",
+    "description": "Teclados mecânicos com switches variados e RGB."
+  },
+  {
+    "id": 16,
+    "name": "Mouses gamers com sensores ópticos de alta precisão",
+    "category": "Componentes de Computador",
+    "price": 199.90,
+    "image": "images/mouse-gamer.jpg",
+    "description": "Mouses gamers com sensores ópticos de alta precisão."
+  },
+  {
+    "id": 17,
+    "name": "Coolers para CPU e soluções de refrigeração líquida",
+    "category": "Componentes de Computador",
+    "price": 149.90,
+    "image": "images/cooler-cpu.jpg",
+    "description": "Coolers para CPU e soluções de refrigeração líquida."
+  },
+  {
+    "id": 18,
+    "name": "Fontes de alimentação com certificações 80 Plus Gold ou Platinum",
+    "category": "Componentes de Computador",
+    "price": 249.90,
+    "image": "images/fonte-alimentacao.jpg",
+    "description": "Fontes de alimentação com certificações 80 Plus Gold ou Platinum."
+  },
+  {
+    "id": 19,
+    "name": "Gabinetes de computador com painéis de vidro temperado e LEDs",
+    "category": "Componentes de Computador",
+    "price": 399.90,
+    "image": "images/gabinete.jpg",
+    "description": "Gabinetes com painéis de vidro temperado e LEDs."
+  },
+  {
+    "id": 20,
+    "name": "Placas-mãe com suporte para overclocking e Wi-Fi",
+    "category": "Componentes de Computador",
+    "price": 599.90,
+    "image": "images/placa-mae.jpg",
+    "description": "Placas-mãe com suporte para overclocking e conectividade Wi-Fi."
+  },
+  {
+    "id": 21,
+    "name": "Lâmpadas inteligentes com controle via aplicativo",
+    "category": "Produtos de Automação Residencial",
+    "price": 89.90,
+    "image": "images/lampada-inteligente.jpg",
+    "description": "Lâmpadas inteligentes com controle de intensidade e cor."
+  },
+  {
+    "id": 22,
+    "name": "Tomadas inteligentes para ligar/desligar aparelhos remotamente",
+    "category": "Produtos de Automação Residencial",
+    "price": 79.90,
+    "image": "images/tomada-inteligente.jpg",
+    "description": "Tomadas inteligentes para controle remoto."
+  },
+  {
+    "id": 23,
+    "name": "Câmeras de segurança Wi-Fi com visão noturna",
+    "category": "Produtos de Automação Residencial",
+    "price": 199.90,
+    "image": "images/camera-seguranca.jpg",
+    "description": "Câmeras de segurança Wi-Fi com visão noturna e detecção de movimento."
+  },
+  {
+    "id": 24,
+    "name": "Fechaduras digitais com acesso por senha, cartão ou biometria",
+    "category": "Produtos de Automação Residencial",
+    "price": 299.90,
+    "image": "images/fechadura-digital.jpg",
+    "description": "Fechaduras digitais com múltiplas formas de acesso."
+  },
+  {
+    "id": 25,
+    "name": "Sistemas de alarme conectados com notificações push",
+    "category": "Produtos de Automação Residencial",
+    "price": 149.90,
+    "image": "images/sistema-alarme.jpg",
+    "description": "Sistemas de alarme com notificações push para smartphones."
+  },
+  {
+    "id": 26,
+    "name": "Sensores de porta e janela para sistemas de segurança",
+    "category": "Produtos de Automação Residencial",
+    "price": 59.90,
+    "image": "images/sensor-porta-janela.jpg",
+    "description": "Sensores para portas e janelas em sistemas de segurança."
+  },
+  {
+    "id": 27,
+    "name": "Termostatos inteligentes para controle de climatização",
+    "category": "Produtos de Automação Residencial",
+    "price": 129.90,
+    "image": "images/termostato-inteligente.jpg",
+    "description": "Termostatos inteligentes para controle via internet."
+  },
+  {
+    "id": 28,
+    "name": "Interruptores inteligentes para automação de iluminação",
+    "category": "Produtos de Automação Residencial",
+    "price": 69.90,
+    "image": "images/interruptor-inteligente.jpg",
+    "description": "Interruptores inteligentes para automação de iluminação."
+  },
+  {
+    "id": 29,
+    "name": "Aspiradores de pó robóticos com controle remoto",
+    "category": "Produtos de Automação Residencial",
+    "price": 399.90,
+    "image": "images/aspirador-robotico.jpg",
+    "description": "Aspiradores de pó robóticos com mapeamento e controle remoto."
+  },
+  {
+    "id": 30,
+    "name": "Cortinas motorizadas com controle via aplicativo",
+    "category": "Produtos de Automação Residencial",
+    "price": 299.90,
+    "image": "images/cortina-motorizada.jpg",
+    "description": "Cortinas motorizadas com controle via app ou assistentes de voz."
+  }
+]
