@@ -1,5 +1,4 @@
 <?php
-// Ler produtos do arquivo JSON
 $productsJson = file_get_contents('products.json');
 $products = json_decode($productsJson, true);
 ?>
@@ -12,16 +11,23 @@ $products = json_decode($productsJson, true);
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo" onclick="window.location.href='index.php'">TechSmart</div>
-        <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Pesquisar produtos..." />
-        </div>
-        <div class="nav-links">
-            <a href="login.php">Login / Cadastro</a>
-            <a href="pages/carrinho.php">Carrinho <span id="cartCount" class="cart-count">0</span></a>
-        </div>
-    </nav>
+<nav class="navbar">
+    <div class="logo" onclick="window.location.href='index.php'">TechSmart</div>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Pesquisar produtos..." />
+    </div>
+    <div class="nav-links">
+        <?php if (isset($_SESSION['logged_in']) && $_SESSION['is_admin']): ?>
+            <a href="pages/dashboard.php">Dashboard</a>
+        <?php endif; ?>
+        <a href="pages/login.php">Login / Cadastro</a>
+        <a href="pages/carrinho.php">Carrinho <span id="cartCount" class="cart-count">0</span></a>
+    </div>
+</nav>
+    <div class="banner-container">
+        <img src="images/banner.png" alt="Banner" class="banner-image" />
+        <div class="banner-title">Bem-vindo à TechSmart Solutions</div>
+    </div>
     <main>
         <div class="top-bar">
             <select id="categoryFilter">

@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 if (!isset($_GET['id'])) {
     header('Location: ../index.php');
     exit;
@@ -20,6 +22,23 @@ if (!$product) {
     echo "<h1>Produto não encontrado</h1>";
     echo "<p><a href='../index.php'>Voltar para a loja</a></p>";
     exit;
+}
+
+// Lógica para adicionar ao carrinho
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_to_cart'])) {
+    $quantity = intval($_POST['quantity']);
+    if ($quantity > 0) {
+        if (!isset($_SESSION['cart'])) {
+            $_SESSION['cart'] = [];
+        }
+        if (isset($_SESSION['cart'][$id])) {
+            $_SESSION['cart'][$id] += $quantity;
+        } else {
+            $_SESSION['cart'][$id] = $quantity;
+        }
+        header('Location: carrinho.php');
+        exit;
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -48,19 +67,16 @@ if (!$product) {
                 <p style="font-size: 1em; color: #4b0082; font-weight: bold;">Categoria: <?php echo htmlspecialchars($product['category']); ?></p>
                 <p style="font-size: 1.2em; color: #4b0082; font-weight: bold;">R$ <?php echo number_format($product['price'], 2, ',', '.'); ?></p>
                 <p><?php echo nl2br(htmlspecialchars($product['description'])); ?></p>
-                <label for="quantity" style="font-weight: bold;">Quantidade:</label>
-                <input type="number" id="quantity" name="quantity" value="1" min="1" max="99" style="width: 60px; margin-left: 10px;"/>
-                <button class="add-to-cart-btn" style="margin-top: 20px; font-size: 1.1em;" onclick="addToCart()">Adicionar ao Carrinho</button>
+                <form method="post" style="margin-top: 20px;">
+                    <label for="quantity" style="font-weight: bold;">Quantidade:</label>
+                    <input type="number" id="quantity" name="quantity" value="1" min="1" max="99" style="width: 60px; margin-left: 10px;" />
+                    <button type="submit" name="add_to_cart" class="add-to-cart-btn" style="font-size: 1.1em;">Adicionar ao Carrinho</button>
+                </form>
             </div>
         </div>
         <p style="margin-top: 20px;"><a href="../index.php" style="color: #40e0d0;">&larr; Voltar para a loja</a></p>
     </main>
-    <script>
-        function addToCart() {
-            const quantity = document.getElementById('quantity').value;
-            alert('Adicionado ' + quantity + ' unidade(s) do produto ao carrinho.');
-            // Aqui você pode adicionar a lógica para adicionar o produto ao carrinho real
-        }
-    </script>
+</body>
+</html>
 </body>
 </html>

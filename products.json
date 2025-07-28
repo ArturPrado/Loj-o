@@ -4,7 +4,7 @@
     "name": "Capas protetoras de silicone",
     "category": "Acessórios para Smartphones",
     "price": 39.90,
-    "image": "images/capas-silicone.jpg",
+    "image": "images/capinha.png",
     "description": "Capas protetoras de silicone para smartphones."
   },
   {
@@ -12,7 +12,7 @@
     "name": "Películas de proteção de tela vidro temperado",
     "category": "Acessórios para Smartphones",
     "price": 29.90,
-    "image": "images/pelicula-vidro-temperado.jpg",
+    "image": "images/pelicula.png",
     "description": "Películas de proteção de tela vidro temperado."
   },
   {
@@ -20,7 +20,7 @@
     "name": "Suportes para carros magnéticos",
     "category": "Acessórios para Smartphones",
     "price": 49.90,
-    "image": "images/suporte-carro-magnetico.jpg",
+    "image": "images/suporte-carro-magnetico.png",
     "description": "Suportes para carros com conectividade magnética."
   },
   {
