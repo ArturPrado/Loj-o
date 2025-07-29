@@ -27,24 +27,24 @@
     "id": 4,
     "name": "Carregadores wireless certificados Qi",
     "category": "Acessórios para Smartphones",
-    "price": 79.90,
-    "image": "images/carregador-wireless.jpg",
+    "price": 59.90,
+    "image": "images/carregador-wireless.png",
     "description": "Carregadores wireless certificados Qi."
   },
   {
     "id": 5,
-    "name": "Fones de ouvido Bluetooth com cancelamento de ruído",
+    "name": "Fone De Ouvido Sem Fio Bluetooth Gamer - X-Cell",
     "category": "Acessórios para Smartphones",
-    "price": 199.90,
-    "image": "images/fone-bluetooth-cancelamento.jpg",
-    "description": "Fones de ouvido Bluetooth com cancelamento de ruído."
+    "price": 69.90,
+    "image": "images/fone.png",
+    "description": "Fone De Ouvido Sem Fio Bluetooth Gamer Com Power Bank - X-Cell."
   },
   {
     "id": 6,
     "name": "Baterias externas (power banks) com múltiplas portas USB",
     "category": "Acessórios para Smartphones",
     "price": 89.90,
-    "image": "images/power-bank.jpg",
+    "image": "images/power-bank.png",
     "description": "Baterias externas com alta capacidade e múltiplas portas USB."
   },
   {
@@ -52,7 +52,7 @@
     "name": "Adaptadores e cabos USB-C, Lightning, Micro-USB e HDMI",
     "category": "Acessórios para Smartphones",
     "price": 39.90,
-    "image": "images/adaptadores-cabos.jpg",
+    "image": "images/adaptadores-cabos.png",
     "description": "Adaptadores e cabos USB-C, Lightning, Micro-USB e HDMI."
   },
   {
@@ -60,7 +60,7 @@
     "name": "Lentes de câmera adicionais (wide, fisheye, macro)",
     "category": "Acessórios para Smartphones",
     "price": 59.90,
-    "image": "images/lentes-camera.jpg",
+    "image": "images/lentes-camera.png",
     "description": "Lentes de câmera adicionais para smartphones."
   },
   {
@@ -68,32 +68,32 @@
     "name": "Tripés e suportes para selfies e vídeos",
     "category": "Acessórios para Smartphones",
     "price": 49.90,
-    "image": "images/tripe-suporte.jpg",
+    "image": "images/tripe-suporte.png",
     "description": "Tripés e suportes para selfies e vídeos."
   },
   {
     "id": 10,
     "name": "Protetores de privacidade para câmera e microfone",
     "category": "Acessórios para Smartphones",
-    "price": 19.90,
-    "image": "images/protetor-privacidade.jpg",
+    "price": 7.90,
+    "image": "images/protetor-privacidade.png",
     "description": "Protetores de privacidade para câmera e microfone."
   },
   {
     "id": 11,
-    "name": "Memórias RAM DDR4 e DDR5 de alta velocidade",
+    "name": "Memória RAM para Notebook Kingston Fury Impact, 16GB, 5600MHz, DDR5",
     "category": "Componentes de Computador",
     "price": 299.90,
-    "image": "images/memoria-ram.jpg",
-    "description": "Memórias RAM DDR4 e DDR5 de alta velocidade."
+    "image": "images/memoria-ram.png",
+    "description": "Memória RAM para Notebook Kingston Fury Impact, 16GB, 5600MHz, DDR5, CL40, Preto - KF556S40IB-16."
   },
   {
     "id": 12,
-    "name": "SSDs NVMe PCIe e SATA com capacidades variadas",
+    "name": "SSD Kingston Fury Renegade, 1TB, M.2 2280, PCIe 4.0 x4, NVMe",
     "category": "Componentes de Computador",
-    "price": 499.90,
-    "image": "images/ssd-nvme.jpg",
-    "description": "SSDs NVMe PCIe e SATA com capacidades variadas."
+    "price": 679.99,
+    "image": "images/ssd-nvme.png",
+    "description": "SSD Kingston Fury Renegade, 1TB, M.2 2280, PCIe 4.0 x4, NVMe, Leitura: 7300 MB/s, Gravação: 6000 MB/s, Compatível com PS5 - SFYRS/1000G."
   },
   {
     "id": 13,
